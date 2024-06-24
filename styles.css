@@ -1,0 +1,141 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+.principal{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.principal .presentation{
+  background-image: url(img/fondo-plant.avif);
+  height: 1000px;
+  width: 500px;
+  /*para que la imagen no se repita si es muy pequeña*/
+  background-repeat: no-repeat;
+  /*para que la imagen se adapte al div*/
+  background-size: cover;
+  background-position:center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.presentation a,.presentation p {
+  color: white;
+  font-size: 12px;
+  font-weight: 200;
+}
+.continer .titulo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 35px;
+  width: 500px;
+  height: 100px;
+  padding: 10px 0px 10px 0px;
+  margin-top: 200px;
+  /*aplica una capa oscura al titulo*/
+  background-color: rgba(0,0,0,0.5);
+}
+.continer .titulo img{
+  width: 75px;
+  
+}
+.principal .content{
+  background-color: #f1f0f0;
+  height: 1000px;
+  width: 800px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.content .frase{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+  background-color: #f1f0f0;
+  
+  height: 300px;
+  padding-bottom:20px ;
+}
+.content .frase p{
+  padding: 5px;
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 30px;
+  margin-left: 30px;
+}
+/*          form             */
+.continer{
+  display: flex;
+  flex-direction: column;
+  
+
+}
+.continer .title{
+  color:black;
+  background-color: white;
+  font-weight: 600;
+  font-size: 24px;
+  padding: 30px;
+}
+.user-details{
+  background-color: white;
+  padding-left: 30px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding-right: 200px;
+  padding-bottom: 30px;
+  box-shadow:  0 0 1em rgba(0, 0, 0, 0.3);
+  
+}
+.input-box{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  font-size: 15px;
+  
+}
+.details{
+  padding-top: 10px;
+}
+input{
+  width: 200px;
+}
+.button{
+  padding-left: 30px;
+  padding-top: 30px;
+}
+
+.button input{
+  width: 180px;
+  height: 40px;
+  font-size: 15px;
+  color: white;
+  font-weight: 700;
+  background-color: rgb(74, 106, 74);
+  border: none;
+  border-radius: 5px;
+  
+}
+button{
+  border: none;
+}
+button input:active{
+  background-color: rgb(38, 54, 38);
+}
+input:invalid{
+  border-color: red;
+}
+
+
+
+
+
+
